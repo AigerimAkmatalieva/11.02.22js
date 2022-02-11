@@ -39,4 +39,23 @@ example.style.left = event.clientX = 'px';
 });
 
 
+document.body.addEventListener('mousedown', function(event) {
+ console.log('mousedown');
+});
 
+document.body.addEventListener('mouseup', function(event) {
+  console.log('mouseup');
+ });
+
+ document.body.addEventListener('click', function(event) {
+  console.log('click');
+ });
+
+example1.style.background = "black"
+ example1.addEventListener('mouseout', function(event) {
+  console.log('mouseout');
+ });
+
+ document.body.addEventListener('mouseover', function(event) {
+  console.log('mouseover');
+ });
